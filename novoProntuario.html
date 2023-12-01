@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novo Prontuário</title>
+
+    <link rel="stylesheet" href="novoProntuario.css" />
+    <script src="/funcoes.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>MedClinical</h1>
+      <img class="logo" src="./images/logo.png" alt="Logo" />
+    </header>
+    <main>
+      <h1>Novo Prontuário</h1>
+      <input type="text" id="name" placeholder="Nome" />
+      <input type="date" id="dateBirth" placeholder="Data de Nascimento" />
+      <input type="text" id="gender" placeholder="Sexo" />
+      <input type="text" id="address" placeholder="Endereço" />
+      <input type="email" id="email" placeholder="E-mail" />
+      <input type="phone" id="phone" placeholder="Telefone" />
+      <input
+        type="phone"
+        id="emergencyContact"
+        placeholder="Contato de Emergência"
+      />
+      <input type="text" id="doctor" placeholder="Médico do Paciente" />
+      <input type="text" id="education" placeholder="Escolaridade" />
+      <input type="text" id="limitation" placeholder="Limitação" />
+      <input type="text" id="occupation" placeholder="Ocupação" />
+      <input type="text" id="allergy" placeholder="Alergia" />
+    </main>
+    <footer>
+      <button onclick="prontuario()">Voltar</button>
+      <button type="submit" onclick="prontuario()">Salvar</button>
+    </footer>
+  </body>
+</html>

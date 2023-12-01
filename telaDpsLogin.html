@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedClinical</title>
+    <link rel="stylesheet" href="telaDpslogin.css" />
+    <script src="/funcoes.js"></script>
+  </head>
+  <body>
+    <header>
+      <button onclick="sair()">
+        <img src="./images/sair.png" alt="Botao Sair" />
+      </button>
+      <h1>MedClinical</h1>
+      <img class="logo" src="./images/logo.png" alt="Logo" />
+    </header>
+    <div class="dados">
+      <img src="./images/usuario.png" alt="usuario" />
+      <h3>Nome</h3>
+    </div>
+    <main>
+      <button onclick="prontuario()">Prontuário</button>
+      <button onclick="agenda()">Agenda</button>
+      <button onclick="receitas()">Receita Médicas</button>
+      <button onclick="atestados()">Atestados</button>
+      <button onclick="remedios()">Remédios Disponíveis</button>
+      <button onclick="perfil()">Perfil</button>
+      <button onclick="chat()">Chat</button>
+    </main>
+  </body>
+</html>

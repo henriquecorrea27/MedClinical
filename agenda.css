@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body button {
+  height: 7.6rem;
+  width: 12.8rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  position: absolute;
+  left: 4.6%;
+  top: 93%;
+  background-color: rgba(0, 0, 0, 0.01);
+}
